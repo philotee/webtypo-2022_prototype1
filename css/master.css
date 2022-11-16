@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100;0,8..30,200;0,8..30,300;0,8..30,400;0,8..30,500;0,8..30,600;0,8..30,700;0,8..30,800;0,8..30,900;1,8..30,100;1,8..30,200;1,8..30,300;1,8..30,400;1,8..30,500;1,8..30,600;1,8..30,700;1,8..30,800;1,8..30,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap');
+body{
+    background-color:khaki;
+}
+    h1{
+        font-family: 'Fruktur';
+        font-style: italic;
+        font-size: 5rem;
+        color: rgb(52, 22, 8);
+    } 
+h2{
+    font-family: 'Fruktur';
+    font-size: 1rem;
+    color: rgb(52, 22, 8);
+}
+
+h3{
+    color: rgb(52, 22, 8);
+
+}
+
+p, section{
+  padding: 0 20vw 0 20vw;  
+}
+main {
+    width: 100%;
+    font-family: 'Piazzolla', serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-indent: 1.7rem;
+}
+
+.gras {
+    font-weight: 800;
+}
+img {
+    width: 100%;
+    max-width: 1320px;
+
+}
+@media screen and (max-width: 640px) {
+
+    .responsiveimage
+    { width: 200px;
+    max-width: 1280px;}
+    p{
+    font-size: 3rem;
+    }
+    }
+
+    @media screen and (min-width: 640px) and (max-width: 840px) {
+        p{
+            font-size: 3rem;
+        }
+     }
+
+
+@media screen and (min-width: 841px)and (max-width: 1280px) {
+    p{
+        font-size: 1rem;
+    }
+}*/
