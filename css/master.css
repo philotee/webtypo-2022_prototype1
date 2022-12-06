@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100;0,8..30,200;0,8..30,300;0,8..30,400;0,8..30,500;0,8..30,600;0,8..30,700;0,8..30,800;0,8..30,900;1,8..30,100;1,8..30,200;1,8..30,300;1,8..30,400;1,8..30,500;1,8..30,600;1,8..30,700;1,8..30,800;1,8..30,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap');
 body{
-    background-color:khaki;
+    background-color:rgb(255, 238, 90);
 }
     h1{
         font-family: 'Fruktur';
         font-style: italic;
         font-size: 5rem;
-        color: rgb(52, 22, 8);
+        color: #9c3a0d;
     } 
 h2{
     font-family: 'Fruktur';
     font-size: 1rem;
-    color: rgb(52, 22, 8);
+    color: #9c3a0d;
 }
 
 h3{
-    color: rgb(52, 22, 8);
+    color: #9c3a0d;
 
 }
 
@@ -26,14 +25,15 @@ p, section{
 }
 main {
     width: 100%;
-    font-family: 'Piazzolla', serif;
+    font-family: 'Eczar';
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     text-indent: 1.7rem;
+    color: #9c3a0d;
 }
 
-.gras {
-    font-weight: 800;
+/*.gras {
+    font-weight: 800; */
 }
 img {
     width: 100%;
