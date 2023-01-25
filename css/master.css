@@ -1,61 +1,63 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap');
+
+
 body{
-    background-color:rgb(255, 244, 141);
+    background-color:#b1ff7d;
 }
-    h1{
-        font-family: 'Fruktur';
-        font-style: italic;
-        font-size: 5rem;
-        color: #9c3a0d;
-    } 
-h2{
+
+h1{
     font-family: 'Fruktur';
-    font-size: 1rem;
-    color: #9c3a0d;
+    font-style: italic;
+    font-size: 10rem;
+    color: #012d44;
 }
 
 h3{
     font-family: 'Eczar';
     font-weight: 500;
-    font-size: 3rem;
-    color: #9c3a0d;
-
+    font-size:4rem;
+    color: #012d44;
 }
 
-p, section{
-  padding: 0 20vw 0 20vw;  
-}
 main {
     width: 100%;
     font-family: 'Eczar';
     font-size: 2rem;
     font-weight: 400;
     text-indent: 1.7rem;
-    color: #9c3a0d;
+    color: #012d44;
 }
 
-/*.gras {
-    font-weight: 800; */
-}
-img {
-    width: 100%;
-    max-width: 1320px;
 
-}
-@media screen and (max-width: 640px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 27px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "Chapitres Chapitres Chapitres Chapitres Sous-titres Sous-titres"
+          "N°-Paragraphes Notes Texte Texte Images Images"
+          "N°-Paragraphes Notes Texte Texte Images Images";
+      }
+      
+      .Chapitres { grid-area: Chapitres; }
+      
+      .Sous-titres { grid-area: Sous-titres; }
+      
+      .Images { grid-area: Images; }
+      
+      .Texte { grid-area: Texte; }
+      
+      .Notes { grid-area: Notes; }
+      
+      .no-Paragraphes { grid-area: N°-Paragraphes; }
 
-    .responsiveimage
-    { width: 200px;
-    max-width: 1280px;}
-    p{
-    font-size: 3rem;
-    }
-    }
-
-    @media screen and (min-width: 640px) and (max-width: 840px) {
+      @media screen and (min-width: 640px) and (max-width: 840px) {
         p{
-            font-size: 3rem;
+            font-size: 2rem;
         }
      }
 
@@ -65,3 +67,4 @@ img {
         font-size: 1rem;
     }
 }*/
+      
