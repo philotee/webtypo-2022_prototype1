@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap');
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 27px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Chapitres Chapitres Chapitres Chapitres Sous-titres Sous-titres"
+      "N°-Paragraphes Notes Texte Texte Images Images"
+      "N°-Paragraphes Notes Texte Texte Images Images";
+  }
+  
+  .Chapitres { grid-area: Chapitres; }
+  
+  .Sous-titres { grid-area: Sous-titres; }
+  
+  .Images { grid-area: Images; }
+  
+  .Texte { grid-area: Texte; }
+  
+  .Notes { grid-area: Notes; }
+  
+  .no-Paragraphes { grid-area: N°-Paragraphes; }
+
+  @media screen and (min-width: 640px) and (max-width: 840px) {
+    p{
+        font-size: 2rem;
+    }
+ }
+
+
+@media screen and (min-width: 841px)and (max-width: 1280px) {
+p{
+    font-size: 1rem;
+}
+}

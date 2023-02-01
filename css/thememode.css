@@ -1,0 +1,14 @@
+
+
+
+body{
+    background-color:#b1ff7d;
+}
+@media screen and (prefers-color-scheme: dark) {
+
+    body { 
+        background-color: #012d44;
+        color: #b1ff7d;
+    }
+    
+}
