@@ -1,9 +1,7 @@
 @import "reset.css";
-@import "typo.css";
-
+@import "fonts.css";
 @import "titres.css";
 @import "mise-en-page.css'";
 @import "paragraphes.css";
 @import "basis.css"; 
 @import "thememode.css";
-      
