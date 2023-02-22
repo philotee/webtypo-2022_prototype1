@@ -1,9 +1,18 @@
 
+#day {
+    visibility: visible;
+}
 
+#night { 
+    visibility: hidden;
+}
 
 body{
     background-color:#b1ff7d;
+    color: #012d44;
 }
+
+
 @media screen and (prefers-color-scheme: dark) {
 
     body { 
@@ -11,4 +20,14 @@ body{
         color: #b1ff7d;
     }
     
+    #day { 
+        visibility: visible;
+    }
+
+    #night {
+        visibility: visible;
+        font-weight: 500;
+        color: #b1ff7d;
+    }
+
 }
