@@ -1,5 +1,5 @@
 
-#day {
+/* #day {
     visibility: visible;
 }
 
@@ -31,3 +31,38 @@ body{
     }
 
 }
+*/
+
+body {
+    --text-color: #012d44;
+    --bkg-color: #b1ff7d;
+  }
+  body.dark-theme {
+    --text-color: #b1ff7d;
+    --bkg-color:  #012d44;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    body {
+      --text-color: #eee;
+      --bkg-color: #121212;
+    }
+    body.light-theme {
+      --text-color: #222;
+      --bkg-color: #fff;
+    }
+  }
+  
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: var(--bkg-color);
+  }
+  
+  h1,
+  p {
+    color: var(--text-color);
+  }

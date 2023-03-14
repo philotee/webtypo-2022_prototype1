@@ -1,0 +1,75 @@
+@import "reset.css";
+@import "fonts.css";
+
+body{ 
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+}
+
+
+.navigation {
+    width: 66vw;
+}
+
+footer {
+    width: 33vw;
+
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+li {
+    border: solid 3px ;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 600px;
+}
+
+
+
+
+main  {
+    display: grid; 
+    grid-template-columns: 0.6fr 1.4fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "note-01 text-01 img-01"
+      "note-02 text-02 img-02"
+      "note-03 text-03 img-03"
+      "note-04 text-04 img-04"
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."; 
+  }
+  .text-01 { grid-area: text-01; }
+  .text-02 { grid-area: text-02; }
+  .text-03 { grid-area: text-03; }
+  .text-04 { grid-area: text-04; }
+  .note-01 { grid-area: note-01; }
+  .note-02 { grid-area: note-02; }
+  .note-03 { grid-area: note-03; }
+  .note-04 { grid-area: note-04; }
+  .img-01 { grid-area: img-01; }
+  .img-02 { grid-area: img-02; }
+  .img-03 { grid-area: img-03; }

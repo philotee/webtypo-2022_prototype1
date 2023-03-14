@@ -1,10 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap');
 
 .container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 27px;
     grid-auto-flow: row;
@@ -38,3 +35,26 @@ p{
     font-size: 1rem;
 }
 }
+
+ul{
+    display: flex;
+}
+
+li{
+    border: solid 3px #012d44;
+    padding: 2%;
+}
+
+a:visited {
+    color: #012d44;
+    text-decoration: none;
+}
+
+/*
+
+main {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 5%;
+    }
+    */
