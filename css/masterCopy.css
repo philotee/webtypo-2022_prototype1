@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
+@import "thememode.css";
 
 body{ 
     font-size: 30px;
